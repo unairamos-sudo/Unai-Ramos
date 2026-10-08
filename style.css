@@ -1,0 +1,123 @@
+/* 1. Estils generals i fons (Predomina el Negre/Fosc de fons per contrastar) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans- serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #121212;
+    /* Negre de fons suau */
+    color: #e0e0e0;
+    /* Text clar per llegir bé sobre fons negre */
+}
+
+/* 2. Títols i encapçalaments (Taronja i Cian) */
+h1 {
+    color: #ff8c00;
+    /* Taronja fosc/cridaner per al nom del restaurant */
+    font-size: 2.7rem;
+    border-bottom: 3px solid #00ced1;
+    /* Línia Cian a sota del títol */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #00ced1;
+    /* Cian per a les descripcions principals */
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+h3,
+h4 {
+    color: #ff8c00;
+    /* Taronja per als subtítols de seccions */
+    margin-top: 30px;
+}
+
+/* 3. Llistes (Menú de paelles) */
+ul {
+    background-color: #1e1e1e;
+    /* Negre grisenc per destacar la secció */
+    padding: 20px 40px;
+    border-radius: 8px;
+    border-left: 5px solid #00ced1;
+    /* Detall amb línia Cian a l'esquerra */
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+    /* Text de la llista en blanc pur */
+}
+
+/* 4. Estils per a la taula d'horaris */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #1e1e1e;
+    /* Fons negre grisenc */
+}
+
+th,
+td {
+    border: 1px solid #333333;
+    /* Vores de color negre clar */
+    padding: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Fila superior de la taula (Capçalera) */
+tr:first-child {
+    background-color: #00ced1;
+    /* Fons Cian per a la capçalera */
+    color: #121212;
+    /* Text en Negre per fer bon contrast */
+    font-weight: bold;
+}
+
+/* 5. El botó de l'enllaç del menú (Taronja i Negre) */
+a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #ff8c00;
+    /* Botó Taronja */
+    color: #121212;
+    /* Text en Negre per llegir-se perfectament */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efecte quan passes el ratolí per sobre del botó */
+a:hover {
+    background-color: #e07b00;
+    /* Un taronja una mica més fosc */
+    transform: scale(1.02);
+    /* El botó es fa una mica més gran */
+}
+body {
+    background: black;
+}
+
+.clock {
+    position: absolute;
+    top: 280%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+
+
+}
+          
